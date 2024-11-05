@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply rounded-sm text-white bg-[#0067b8] py-2 px-3 font-semibold;
+}
+.cards1 {
+    @apply flex flex-col w-[23%]  justify-center items-start shadow-md cursor-pointer max-lg:w-[45vw] max-lg:mb-2 max-lg:mx-2 max-ssm:w-full;
+}
+.cards2 {
+    @apply flex flex-col w-[23%]  justify-center items-start shadow-md cursor-pointer h-full max-lg:w-[45vw] max-lg:mb-2 max-lg:mx-2 max-ssm:w-full;
+}
+@tailwind utilities;
