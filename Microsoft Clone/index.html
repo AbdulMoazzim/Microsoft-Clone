@@ -8,39 +8,52 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <!-- <div class="flex justify-between items-center px-20 py-4">
-        <nav>
-            <ul class="flex justify-around items-center">
-                <li class=" pl-5 cursor-pointer"><img class="h-6" src="imgs/icon.png" alt="icon"></li>
-                <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Microsoft 365</li>
-                <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Office</li>
-                <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Copilot</li>
-                <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Windows</li>
-                <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Support</li>
-            </ul>
-        </nav>
-        <div class="flex justify-between items-center">
-            <span class="text-sm ml-5">All Microsoft ^</span>
-            <span class="material-symbols-outlined ml-5 text-sm">search</span>
-            <span class="material-symbols-outlined ml-5 text-sm">shopping_cart</span>
-            <span class="material-symbols-outlined ml-5 text-sm">account_circle</span>
+    <div>
+        <div class="flex justify-between items-center px-20 py-4 max-lg:px-2 max-md:hidden">
+             <nav>
+                <ul class="flex justify-around items-center">
+                    <li class=" pl-5 cursor-pointer"><img class="h-6" src="imgs/icon.png" alt="icon"></li>
+                    <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Microsoft 365</li>
+                    <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Office</li>
+                    <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Copilot</li>
+                    <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Windows</li>
+                    <li class="text-sm ml-5 pb-[2px] cursor-pointer border-b-2 border-white hover:border-black">Support</li>
+                </ul>
+            </nav>
+            <div class="flex justify-between items-center">
+                <span class="text-sm ml-5">All Microsoft ^</span>
+                <span class="material-symbols-outlined ml-5 text-sm">search</span>
+                <span class="material-symbols-outlined ml-5 text-sm">shopping_cart</span>
+                <span class="material-symbols-outlined ml-5 text-sm">account_circle</span>
+            </div>
         </div>
-    </div> -->
+        <div class="justify-between items-center px-2 py-4 hidden max-md:flex">
+            <div class="flex justify-between items-center">
+                <span class="material-symbols-outlined text-3xl font-[200]">menu</span>
+                <span class="material-symbols-outlined ml-5 text-3xl">search</span>
+            </div>
+            <img class="h-6" src="imgs/icon.png" alt="icon">
+            <div class="flex justify-between items-center">
+                <span class="material-symbols-outlined text-3xl font-[200]">shopping_cart</span>
+                <span class="material-symbols-outlined ml-5 text-3xl font-[200]">account_circle</span>
+            </div>
+        </div>
+    </div>
     <main>
-        <!-- <div class="relative flex flex-col items-start justify-center">
-             <div class="absolute w-11/12 left-11 p-10 shadow-md top-[22rem] bg-white lg-[#c2e1fe] lg:top-40 lg:w-2/5">
+        <div class="relative flex flex-col items-start justify-center max-lg:mb-24 max-md:mb-0">
+             <div class="hidden absolute w-[95%] p-10 ml-[2.5%] max-lg:block shadow-md bottom-[-22%] bg-white max-md:hidden">
                 <h1 class="text-3xl font-semibold">Unlock your Potential With Microsoft Copilot</h1>
                 <p class="my-4">Get things done faster and unleash your creativity with the power of AI anywhere you go.</p>
                 <button class="btn cursor-pointer">Download the Copilot app</button>
             </div>
             <div >
-                <img class="w-screen" src="pic2.avif" alt="banner">
+                <img class="w-screen" src="imgs/pic2.avif" alt="banner">
             </div>
             <div>
-                <img class="w-screen" src="imgs/pic1.avif" alt="banner">
+                <img class="w-screen hidden" src="imgs/pic1.avif" alt="banner">
             </div>
             </div>
-            <div class="absolute w-11/12 left-11 p-10 pr-6 shadow-md top-80 bg-white sm:top-96 lg:bg-[#c2e1fe] lg:shadow-none lg:top-40 lg:w-[38%] lg:pl-15">
+            <div class="absolute w-2/5 left-11 p-10 top-[18%] max-lg:hidden">
                 <h1 class="text-3xl font-semibold">Maximise the everyday with Microsoft 365</h1>
                 <p class="my-4">Get online protection, secure cloud storage and innovative apps designed to fit your needs – all in one plan.</p>
                 <button class="btn cursor-pointer">For one person</button>
@@ -48,13 +61,18 @@
                 <span class="transition-[padding] ease-in-out duration-500 font-semibold hover:pl-1 cursor-pointer">></span>
             </div>
         </div>
+        <div class="hidden p-6 shadow-md max-md:block">
+            <h1 class="text-3xl font-semibold">Unlock your Potential With Microsoft Copilot</h1>
+            <p class="my-4">Get things done faster and unleash your creativity with the power of AI anywhere you go.</p>
+            <button class="btn cursor-pointer">Download the Copilot app</button>
+        </div>
         <div class="flex justify-center items-center py-6">
             <span class="material-symbols-outlined text-[18px] rounded-full border-[1px] border-black ml-6 cursor-pointer">play_arrow</span>
             <span class="transition-[padding] ease-in-out duration-500 ml-6 text-lg hover:pl-2 cursor-pointer">&lt;</span>
             <span class="rounded-full border-[1px] ml-6 p-1 border-black bg-white"></span>
             <span class="rounded-full border-[1px] ml-6 p-1 border-black bg-white"></span>
             <span class="transition-[padding] ease-in-out duration-500 ml-6 text-lg hover:pl-2 cursor-pointer">&gt;</span>
-        </div> -->
+        </div>
         <div class="flex w-10/12 justify-between items-start mx-auto my-20 px-6 max-lg:w-screen max-lg:px-3 flex-wrap">
             <div class="cards1">
                 <img src="imgs/img1.jfif" alt="img" class="w-full">
@@ -89,14 +107,25 @@
                 <button class="btn my-4 mx-5">Download now</button>
             </div>
         </div>
-        <!-- <div class="relative w-10/12 mx-auto mb-20">
-            <img src="imgs/img5.avif" alt="img">
-            <div class="absolute lg:top-48 lg:left-[756px] w-80">
-                <h1 class="text-3xl font-semibold text-white">Organize your life</h1>
+        <div class="relative w-10/12 mx-auto mb-20 max-lg:w-[95%]">
+            <img src="imgs/img5.avif" alt="img" class="w-full">
+            <div class="block absolute top-1/4 right-[15%] max-lg:hidden">
+                <h1 class="text-5xl font-semibold text-white">Organize your life</h1>
                 <p class="text-white my-5">Keep your ideas and notes organized with OneNote.</p>
                 <button class="btn text-white cursor-pointer">Learn more</button>
             </div>
-        </div>  -->
+            <div class="hidden bg-white w-[95%] absolute bottom-[-22%] p-12 shadow ml-[2.5%] max-lg:block max-md:hidden">
+                <h1 class="font-semibold text-2xl">Organize your life</h1>
+                <p class="my-5">Keep your ideas and notes organized with OneNote.</p>
+                <button class="btn text-white cursor-pointer">Learn more</button>
+            </div>
+
+        </div> 
+        <div class="hidden ml-[2.5%] max-md:block">
+            <h1 class="font-semibold text-2xl">Organize your life</h1>
+            <p class="my-5">Keep your ideas and notes organized with OneNote.</p>
+            <button class="btn text-white cursor-pointer">Learn more</button>
+        </div>
         <div class="flex w-10/12 justify-start items-start mx-auto my-20  max-lg:w-screen max-lg:px-3 text-3xl font-semibold">For business</div>
         <div class="flex w-10/12 justify-between items-start mx-auto my-20 px-6 max-lg:w-screen max-lg:px-3 flex-wrap">
             <div class="cards2">
